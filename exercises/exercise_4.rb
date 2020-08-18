@@ -24,3 +24,7 @@ end
 @womens_stores.each do |store|
   puts "Name: #{store.name}, Annual Revenue: #{store.annual_revenue}"
 end
+
+@store4 = Store.find_by(id: 4)
+@store5 = Store.find_by(id: 5)
+@store6 = Store.find_by(id: 6)
