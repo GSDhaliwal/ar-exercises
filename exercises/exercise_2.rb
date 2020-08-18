@@ -9,4 +9,4 @@ puts "----------"
 @store1 = Store.find_by(id: 1)
 @store1.update(name: "Langley")
 
-@store2 == Store.find_by(id: 2)
+@store2 = Store.find_by(id: 2)

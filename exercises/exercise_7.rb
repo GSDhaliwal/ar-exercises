@@ -10,3 +10,9 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+userStore = gets.chomp
+
+new_Store = Store.create(name: userStore)
+
+puts new_Store.valid?
